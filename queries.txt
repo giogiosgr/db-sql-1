@@ -49,7 +49,7 @@ select exam_id, avg(vote) from exam_student group by exam_id
 
 4.Contare quanti corsi di laurea ci sono per ogni dipartimento
 
-select department_id, count(department_id) as degrees_count from degrees group by department_id
+select `department_id`, count(department_id) as `degrees_count` from `degrees` group by `department_id` 
 
 
 
